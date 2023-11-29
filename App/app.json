@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "App",
-    "slug": "App",
-    "version": "1.0.0",
+    "name": "WeddingReadyApp",
+    "slug": "WeddingReadyApp",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/real-icon-1024.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -15,7 +15,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.WeddingReady.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -25,6 +26,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "33923a76-5762-4ad8-8616-efc9078b4cb1"
+      }
     }
   }
 }
